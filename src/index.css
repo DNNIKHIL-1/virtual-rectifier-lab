@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@keyframes flowDash {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+.circuit-flowing-wire {
+  stroke-dasharray: 6 4;
+  animation: flowDash 0.75s linear infinite;
+  filter: drop-shadow(0 0 6px #22c55e);
+}
+
+/* Custom scrollbars for lab instrument look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070d1d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}

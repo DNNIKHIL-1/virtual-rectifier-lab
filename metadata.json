@@ -1,0 +1,6 @@
+{
+  "name": "Power Electronics Virtual Lab",
+  "description": "Interactive Virtual Laboratory for Single-Phase Diode and Thyristor Controlled Rectifiers with dynamic schematic animations, real-time waveforms, and analytical parameters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
